@@ -16,6 +16,10 @@ var completedTasksHolder=document.getElementsByClassName("completed__list")[0];/
 
 //New task list item
 var createNewTaskElement=function(taskString){
+    // editButton.className="edit btn";
+  // checkBox.className="todo__list-checkbox";
+  // deleteButton.className="delete btn";
+  // deleteButton.getElementsByTagName("img").className="todo__list-img";
 
   var listItem=document.createElement("li");
   listItem.className="todo__list-item";
